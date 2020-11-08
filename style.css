@@ -121,6 +121,8 @@ a.active,a:hover{
     margin: 8em auto;
 }
 .content .content-wrapper h1{
+    width: 100%;
+    margin: 0 auto;
     font-weight: bold;
     z-index: 1000;
     font-size: 3.5rem;
@@ -133,7 +135,7 @@ a.active,a:hover{
     opacity: 0;
 }
     .content .content-wrapper p{
- 
+    
     margin: 0 auto;
     width: 90%;
     line-height: 1.2;
@@ -227,7 +229,6 @@ a.active,a:hover{
     margin-top: 0;
 }
     
-
 .learnmore-btn{
     font-size: 1.2rem;
     border: 2px solid #fff;
