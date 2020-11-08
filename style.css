@@ -132,39 +132,74 @@ a.active,a:hover{
     transform: translateX(-20px);
     opacity: 0;
 }
-.content .content-wrapper p{
-    /* text-align: center; */
+    .content .content-wrapper p{
+    text-align: center; 
     margin: 0 auto;
-    
+    width: 80%;
     line-height: 1.2;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 1rem 0;
     animation: header-onload 300ms ease-in var(--header-load-time);
     animation-fill-mode: forwards;
     transform: translateX(-20px);
     opacity: 0;
 }
-.btn{
+    .btn{
     padding: .8rem;
     font-weight: 600;
     color: #fff;
     border: 2px solid #fff;
     background-color: transparent;
-}
-.agentButton-container{
+ }  /* 
 
+
+.content{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 90px;
+    
+}
+
+.content1{
+    width: 100%;
     margin: 0 auto;
+   
+}
+.content h1{
+    padding-top: 90px;
+    font-weight: 900;
+    z-index: 1000;
+    font-size: 3.5rem;
+    z-index: 1000;
+   
+    
+}
+.content p{
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+
+} */
+
+.agentButton-container{
     position: fixed;
+    margin: 0 auto;
+   
+    font-weight: 900;
     animation: ul-onload 300ms ease-in var(--ul-load-time);
     animation-fill-mode: forwards;
     transform: translateY(-20px);
     opacity: 0;
-
     
 }
+
+
+
 .agentButton{
   
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     width: 180px;
     margin: 25rem 100px 1rem 100px;
     font-weight: 700;
