@@ -118,7 +118,7 @@ a.active,a:hover{
 }
 .content-wrapper{
     width: 100%;
-    margin: 11em auto;
+    margin: 8em auto;
 }
 .content .content-wrapper h1{
     font-weight: bold;
@@ -186,7 +186,6 @@ a.active,a:hover{
 .agentButton-container{
     position: fixed;
     margin: 0 auto;
-   
     font-weight: 900;
     animation: ul-onload 300ms ease-in var(--ul-load-time);
     animation-fill-mode: forwards;
@@ -195,13 +194,10 @@ a.active,a:hover{
     
 }
 
-
-
 .agentButton{
-  
     padding: 1rem 1.5rem;
     width: 180px;
-    margin: 25rem 100px 1rem 100px;
+    margin: 35rem 100px 1rem 90px;
     font-weight: 700;
     background-color: #000;
     color: #fff;
