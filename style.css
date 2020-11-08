@@ -29,7 +29,7 @@ header{
     margin: 0 auto;
     padding: 1rem;
     color: #000;
-    background-color: #ffffff4a;
+    background-color: #ffffff00;
     z-index: 1000;
 
   
@@ -126,14 +126,16 @@ a.active,a:hover{
     font-size: 3.5rem;
     z-index: 1000;
     text-transform: uppercase;
+    text-align: center;
     animation: header-onload 300ms ease-in var(--header-load-time);
     animation-fill-mode: forwards;
     transform: translateX(-20px);
     opacity: 0;
 }
 .content .content-wrapper p{
+    /* text-align: center; */
     margin: 0 auto;
-    width: 80%;
+    
     line-height: 1.2;
     font-size: 1.2rem;
     padding: 1rem 0;
