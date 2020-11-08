@@ -117,7 +117,7 @@ a.active,a:hover{
     align-items: center;
 }
 .content-wrapper{
-
+    width: 100%;
     margin: 11em auto;
 }
 .content .content-wrapper h1{
@@ -126,16 +126,16 @@ a.active,a:hover{
     font-size: 3.5rem;
     z-index: 1000;
     text-transform: uppercase;
-    text-align: center;
+ 
     animation: header-onload 300ms ease-in var(--header-load-time);
     animation-fill-mode: forwards;
     transform: translateX(-20px);
     opacity: 0;
 }
     .content .content-wrapper p{
-    text-align: center; 
+ 
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     line-height: 1.2;
     font-size: 1.5rem;
     padding: 1rem 0;
