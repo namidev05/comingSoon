@@ -121,18 +121,15 @@ a.active,a:hover{
     margin: 8em auto;
 }
 .content .content-wrapper h1{
-    width: 100%;
-    margin: 0 auto;
     font-weight: bold;
     z-index: 1000;
     font-size: 3.5rem;
     z-index: 1000;
     text-transform: uppercase;
- 
-    animation: header-onload 300ms ease-in var(--header-load-time);
+    /* animation: header-onload 300ms ease-in var(--header-load-time);
     animation-fill-mode: forwards;
     transform: translateX(-20px);
-    opacity: 0;
+    opacity: 0; */
 }
     .content .content-wrapper p{
     
@@ -141,10 +138,10 @@ a.active,a:hover{
     line-height: 1.2;
     font-size: 1.5rem;
     padding: 1rem 0;
-    animation: header-onload 300ms ease-in var(--header-load-time);
+    /* animation: header-onload 300ms ease-in var(--header-load-time);
     animation-fill-mode: forwards;
     transform: translateX(-20px);
-    opacity: 0;
+    opacity: 0; */
 }
     .btn{
     padding: .8rem;
