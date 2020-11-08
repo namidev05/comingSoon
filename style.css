@@ -184,7 +184,8 @@ a.active,a:hover{
 
 .agentButton-container{
     /* position: fixed; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    width: 100%;
     font-weight: 900;
     animation: ul-onload 300ms ease-in var(--ul-load-time);
     animation-fill-mode: forwards;
@@ -195,8 +196,8 @@ a.active,a:hover{
 
 .agentButton{
     padding: 1rem 1.5rem;
-    width: 180px;
-    margin: 1rem 100px 1rem 90px; 
+    width: 150px;
+    margin: 1rem 100px 1rem 100px; 
     font-weight: 700;
     background-color: #000;
     color: #fff;
